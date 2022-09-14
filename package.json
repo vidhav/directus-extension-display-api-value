@@ -1,0 +1,50 @@
+{
+  "author": "Håvard Vidme",
+  "bugs": {
+    "url": "https://github.com/vidhav/directus-extension-display-api-value/issues"
+  },
+  "dependencies": {
+    "micromustache": "8.0.3"
+  },
+  "description": "Display data from API based on value.",
+  "devDependencies": {
+    "@directus/extensions-sdk": "9.6.0",
+    "@typescript-eslint/eslint-plugin": "5.37.0",
+    "@typescript-eslint/parser": "5.37.0",
+    "eslint": "8.23.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-vue": "9.4.0",
+    "prettier": "2.7.1",
+    "typescript": "4.8.2",
+    "vue": "3.2.36"
+  },
+  "directus:extension": {
+    "host": "9.6.0",
+    "path": "dist/index.js",
+    "source": "src/index.ts",
+    "type": "display"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/vidhav/directus-extension-display-api-value#readme",
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-custom-display"
+  ],
+  "license": "ISC",
+  "name": "directus-extension-display-api-value",
+  "repository": {
+    "url": "git+https://github.com/vidhav/directus-extension-display-api-value.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "directus-extension build",
+    "format": "prettier -w ./src",
+    "lint": "eslint .",
+    "test": "echo 0"
+  },
+  "version": "0.0.0"
+}
